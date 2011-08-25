@@ -1,0 +1,21 @@
+USAGE
+
+Requirements
+Nodejs installed, refer to https://github.com/joyent/node/wiki/Installation
+
+Modules express and socket.io installed
+# npm install express socket.io
+
+Running
+# node app.js
+
+Access http://localhost:8081
+
+In a terminal feed log.out file with new data.
+For example:
+echo "New data" >> log.out
+
+You will see this data poping in the browser, and in the browser console if you have that open.
+
+That's all there's to it.
+
