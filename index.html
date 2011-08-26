@@ -4,7 +4,7 @@
     <script src="/socket.io/socket.io.js" type="text/javascript"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-        var socket = new io.connect('http://localhost:8081');
+        var socket = io.connect('localhost', {port:8081});
         socket.on('log', function (data) {
           $('#log').append('<br />' + data);
           console.log(data);
