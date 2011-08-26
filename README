@@ -8,14 +8,17 @@ Modules express and socket.io installed
 
 Running
 # node app.js
+or
+# node app.js path/to/file
+
+If no path to a file is passed, the app will assume it is to tail the log.out file in the repository root directory.
 
 Access http://localhost:8081
 
-In a terminal feed log.out file with new data.
+In a terminal feed log.out (or the one specified) file with new data.
 For example:
 echo "New data" >> log.out
 
 You will see this data poping in the browser, and in the browser console if you have that open.
 
 That's all there's to it.
-
