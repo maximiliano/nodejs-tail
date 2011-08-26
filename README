@@ -1,7 +1,7 @@
 USAGE
 
 Requirements
-Nodejs installed, refer to https://github.com/joyent/node/wiki/Installation
+Nodejs and npm installed, refer to https://github.com/joyent/node/wiki/Installation
 
 Modules express and socket.io installed
 # npm install express socket.io
