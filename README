@@ -6,6 +6,11 @@ Nodejs installed, refer to https://github.com/joyent/node/wiki/Installation
 Modules express and socket.io installed
 # npm install express socket.io
 
+Setup
+# git clone git@github.com:maximiliano/nodejs-tail.git
+# cd nodejs-tail
+# touch log.out
+
 Running
 # node app.js
 or
